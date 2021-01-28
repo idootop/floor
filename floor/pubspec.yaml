@@ -14,7 +14,10 @@ dependencies:
   sqflite_sqlcipher: ^1.1.4
   sqflite_common_ffi: ^1.1.1
   floor_annotation:
-    path: ../floor_annotation/
+    git:
+      url: https://www.github.com/idootop/floor.git
+      path: floor_annotation
+      ref: sqlcipher
   meta: ^1.2.3
   flutter:
     sdk: flutter
@@ -25,6 +28,9 @@ dev_dependencies:
   flutter_test:
     sdk: flutter
   floor_generator:
-    path: ../floor_generator/
+    git:
+      url: https://www.github.com/idootop/floor.git
+      path: generator
+      ref: sqlcipher
   build_runner: ^1.10.3
   matcher: ^0.12.9
