@@ -179,9 +179,11 @@ packages:
   floor_annotation:
     dependency: "direct main"
     description:
-      path: "../floor_annotation"
-      relative: true
-    source: path
+      path: floor_annotation
+      ref: sqlcipher
+      resolved-ref: "8cb157189d0545be00b655e4ed261dfff3ba1817"
+      url: "https://www.github.com/idootop/floor.git"
+    source: git
     version: "0.11.0"
   glob:
     dependency: transitive
